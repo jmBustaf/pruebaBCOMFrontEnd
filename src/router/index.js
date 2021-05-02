@@ -29,12 +29,12 @@ const routes = [
   },
   {
     path: '/usuarios/editar',
-    name: 'usuarioNuevo',
+    name: 'usuarioEditar',
     component: () => import('../views/UsuarioEditar.vue')
   },
   {
     path: '/eventos/editar',
-    name: 'eventoNuevo',
+    name: 'eventoEditar',
     component: () => import('../views/EventoEditar.vue')
   }
 ]
